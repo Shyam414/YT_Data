@@ -34,20 +34,20 @@ Hi Shyam Sundar! The project's objective is to utilize YouTube APIs to extract d
 
 ## Data Model
 video_id,
-    channelTitle,
-    title,
-    description,
-    tags,
-    publishedAt,
-    viewCount,
-    likeCount,
-    favouriteCount,
-    duration,
-    commentCount,
-    definition,
-    caption,
-    pushblishDayName,
-    durationSecs,
+    channelTitle,<br>
+    title,<br>
+    description,<br>
+    tags,<br>
+    publishedAt,<br>
+    viewCount,<br>
+    likeCount,<br>
+    favouriteCount,<br>
+    duration,<br>
+    commentCount,<br>
+    definition,<br>
+    caption,<br>
+    pushblishDayName,<br>
+    durationSecs,<br>
     tagCount 
 
 ## Data Visualization
