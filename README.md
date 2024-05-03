@@ -32,4 +32,22 @@ Hi Shyam Sundar! The project's objective is to utilize YouTube APIs to extract d
 ==>For data extraction from YouTube, you can follow the steps outlined in the guide provided at the following link: https://developers.google.com/youtube/v3/docs <br>
 1)This resource explains how to use the YouTube Data API to extract, preprocess, and analyze data from YouTube channels using Python. <br>2)The guide covers web scraping techniques, data preprocessing, and analysis methods to retrieve information such as video titles, views, durations, and more. <br>3)By following the instructions in the guide, you can effectively extract and analyze YouTube data for various purposes.
 
+## Data Model
+video_id,
+    channelTitle,
+    title,
+    description,
+    tags,
+    publishedAt,
+    viewCount,
+    likeCount,
+    favouriteCount,
+    duration,
+    commentCount,
+    definition,
+    caption,
+    pushblishDayName,
+    durationSecs,
+    tagCount 
 
+## Data Visualization
