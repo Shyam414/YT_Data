@@ -26,6 +26,14 @@ To create an API key for accessing the YouTube Data API, you can follow these st
 
 1)Go to the Google Cloud Console: https://console.cloud.google.com/apis/credentials  
 2)If prompted, sign in with your Google account.
+
+
 3)Once logged in, select the project where you want to create the API key, or create a new project if needed. You can do this by clicking on the project dropdown menu at the top of the page.
+
+
 4)Once you've selected or created the project, click on the "Create credentials" button and select "API key" from the dropdown menu.
+
+
 5)Your API key will be generated. Make sure to copy and securely store the API key, as you'll need it to authenticate your requests to the YouTube Data API.
+
+
