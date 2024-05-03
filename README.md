@@ -10,3 +10,15 @@ Hi Shyam Sundar! The project's objective is to utilize YouTube APIs to extract d
 
 ## Data_Architecture
 <img src="img.png">
+
+
+## Technology Used
+- Programming Language - Python
+- Storage - PostgreSQL
+- Data Visualization - PowerBI
+- deployment - Github
+- source-You Tube API
+
+  Data Pipeine : Api-->Python-->Postgresql--> Python-->Postgresql-->PowerBI
+
+## Dataset Used
