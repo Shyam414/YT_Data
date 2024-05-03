@@ -6,5 +6,6 @@ Main source Link: https://github.com/Shyam414/YT_Data
 
 # Introduction
 
-Hi, it's Shyam Sundar.
-  The goal of this project is to perform data analytics on Uber dataset using various tools and technologies, including Python, Postgresql, PowerBI, API tools to extract data.
+Hi Shyam Sundar! The project's objective is to utilize YouTube APIs to extract data from various YouTube channels with different channel IDs. Following data extraction, the data will be cleaned and loaded into a PostgreSQL database. Subsequently, Power BI will be employed to visualize the data. The primary aim is to establish a seamless pipeline from API extraction to visualization.
+
+## Data_Architecture
