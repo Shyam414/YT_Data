@@ -19,6 +19,11 @@ conn = psycopg2.connect(**conn_params)
 # Create cursor
 cur = conn.cursor()
 
+# Drop table yt if it exists
+cur.execute("DROP TABLE IF EXISTS yt")
+conn.commit()
+
+
 # Define the table creation query
 create_table_query = '''
 CREATE TABLE IF NOT EXISTS yt (
