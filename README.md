@@ -30,6 +30,6 @@ Hi Shyam Sundar! The project's objective is to utilize YouTube APIs to extract d
 4)Once you've selected or created the project, click on the "Create credentials" button and select "API key" from the dropdown menu.<br>
 5)Your API key will be generated. Make sure to copy and securely store the API key, as you'll need it to authenticate your requests to the YouTube Data API.<br>
 ==>For data extraction from YouTube, you can follow the steps outlined in the guide provided at the following link: https://developers.google.com/youtube/v3/docs <br>
-This resource explains how to use the YouTube Data API to extract, preprocess, and analyze data from YouTube channels using Python. <br>The guide covers web scraping techniques, data preprocessing, and analysis methods to retrieve information such as video titles, views, durations, and more. <br>By following the instructions in the guide, you can effectively extract and analyze YouTube data for various purposes.
+1)This resource explains how to use the YouTube Data API to extract, preprocess, and analyze data from YouTube channels using Python. <br>2)The guide covers web scraping techniques, data preprocessing, and analysis methods to retrieve information such as video titles, views, durations, and more. <br>3)By following the instructions in the guide, you can effectively extract and analyze YouTube data for various purposes.
 
 
