@@ -22,12 +22,14 @@ Hi Shyam Sundar! The project's objective is to utilize YouTube APIs to extract d
   Data Pipeine : Api-->Python-->Postgresql--> Python-->Postgresql-->PowerBI
 
 ## Dataset source
-To create an API key for accessing the YouTube Data API, you can follow these steps:
+==>To create an API key for accessing the YouTube Data API, you can follow these steps:
 
 1)Go to the Google Cloud Console: https://console.cloud.google.com/apis/credentials  
 2)If prompted, sign in with your Google account.<br>
 3)Once logged in, select the project where you want to create the API key, or create a new project if needed. You can do this by clicking on the project dropdown menu at the top of the page.<br>
 4)Once you've selected or created the project, click on the "Create credentials" button and select "API key" from the dropdown menu.<br>
 5)Your API key will be generated. Make sure to copy and securely store the API key, as you'll need it to authenticate your requests to the YouTube Data API.<br>
+==>For data extraction from YouTube, you can follow the steps outlined in the guide provided at the following link: https://developers.google.com/youtube/v3/docs <br>
+This resource explains how to use the YouTube Data API to extract, preprocess, and analyze data from YouTube channels using Python. <br>The guide covers web scraping techniques, data preprocessing, and analysis methods to retrieve information such as video titles, views, durations, and more. <br>By following the instructions in the guide, you can effectively extract and analyze YouTube data for various purposes.
 
 
