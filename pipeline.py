@@ -2,7 +2,7 @@ import pandas as pd
 import psycopg2
 
 #read csv
-df=pd.read_csv('Data\\apiData.csv')
+df=pd.read_csv('Data\\CleanData.csv')
 
 # Define connection parameters
 conn_params = {
@@ -19,16 +19,9 @@ conn = psycopg2.connect(**conn_params)
 # Create cursor
 cur = conn.cursor()
 
-cur.execute("DROP TABLE IF EXISTS yt;")
-conn.commit()
-
-
-# Remove the original duration column from the DataFrame
-df.drop(columns=['duration'], inplace=True)
-
 # Define the table creation query
 create_table_query = '''
-CREATE TABLE yt (
+CREATE TABLE IF NOT EXISTS yt (
     video_id VARCHAR PRIMARY KEY,
     channelTitle VARCHAR,
     title VARCHAR,
@@ -39,6 +32,7 @@ CREATE TABLE yt (
     likeCount FLOAT,
     favouriteCount FLOAT,
     commentCount FLOAT,
+    duration VARCHAR,
     definition VARCHAR,
     caption BOOLEAN,
     pushblishDayName VARCHAR,
@@ -56,10 +50,10 @@ for index, row in df.iterrows():
     insert_query = """
     INSERT INTO yt (
         video_id, channelTitle, title, description, tags, publishedAt,
-        viewCount, likeCount, favouriteCount, commentCount, 
+        viewCount, likeCount, favouriteCount, commentCount, duration,
         definition, caption, pushblishDayName, durationSecs, tagCount
     )
-    VALUES (%s, %s, %s,  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
+    VALUES (%s, %s, %s,  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s);
     """
     cur.execute(insert_query, tuple(row))
     conn.commit()

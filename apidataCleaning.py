@@ -39,4 +39,4 @@ df['tagCount'] = df['tags'].apply(lambda x: 0 if pd.isna(x) else len(x) if isins
 df.head()
 
 
-df.to_csv('Data\\apiData.csv', index=False)
+df.to_csv('Data\\CleanData.csv', index=False)
