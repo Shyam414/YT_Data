@@ -75,7 +75,7 @@ def get_video_ids(youtube, playlist_id):
 
 
 Video_ids=get_video_ids(youtube, playlist_id)
-len(Video_ids)
+Video_ids
 
 
 

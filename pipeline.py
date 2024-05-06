@@ -1,10 +1,9 @@
 import pandas as pd
 import psycopg2
 
-#read csv
+
 df=pd.read_csv('Data\\CleanData.csv')
 
-# Define connection parameters
 conn_params = {
     "host": "127.0.0.2",
     "port": "5432",
@@ -13,10 +12,8 @@ conn_params = {
     "database": "YT_Data"
 }
 
-# Establish connection
 conn = psycopg2.connect(**conn_params)
 
-# Create cursor
 cur = conn.cursor()
 
 # Drop table yt if it exists
