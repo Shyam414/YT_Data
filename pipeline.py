@@ -27,7 +27,6 @@ CREATE TABLE IF NOT EXISTS yt (
     video_id VARCHAR PRIMARY KEY,
     channelTitle VARCHAR,
     title VARCHAR,
-    description TEXT,
     tags TEXT,
     publishedAt TIMESTAMP,
     viewCount FLOAT,
@@ -51,11 +50,11 @@ conn.commit()
 for index, row in df.iterrows():
     insert_query = """
     INSERT INTO yt (
-        video_id, channelTitle, title, description, tags, publishedAt,
+        video_id, channelTitle, title, tags, publishedAt,
         viewCount, likeCount, favouriteCount, commentCount, duration,
         definition, caption, pushblishDayName, durationSecs, tagCount
     )
-    VALUES (%s, %s, %s,  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s);
+    VALUES (%s, %s, %s,  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s);
     """
     cur.execute(insert_query, tuple(row))
     conn.commit()
@@ -63,7 +62,6 @@ for index, row in df.iterrows():
 # Close cursor and connection
 cur.close()
 conn.close()
-
 
 
 
