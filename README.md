@@ -1,8 +1,9 @@
 
 # Uber_ETL Data Analytics
 
-Main source Link: https://github.com/Shyam414/YT_Data
+## Project Link
 
+For more details, visit the [project repository](https://github.com/Shyam414/YT_Data).
 
 # Introduction
 
