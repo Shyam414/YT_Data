@@ -2,7 +2,7 @@
 # YT_ETL Data Analytics
 
 ## Project Link
-Power BI Dash Board: [Link](https://app.powerbi.com/links/qLs5SvBDqt?ctid=d6011d6b-35d1-495c-a859-c8b56d77536b&pbi_source=linkShare&bookmarkGuid=e16ab9b5-1e70-4e2b-8d00-2fece18ab6ac)
+Power BI Dash Board: [Link](https://app.powerbi.com/links/qLs5SvBDqt?ctid=d6011d6b-35d1-495c-a859-c8b56d77536b&pbi_source=linkShare&bookmarkGuid=e16ab9b5-1e70-4e2b-8d00-2fece18ab6ac)<br>
 For more details, visit the [project repository](https://github.com/Shyam414/YT_Data).
 
 # Introduction
